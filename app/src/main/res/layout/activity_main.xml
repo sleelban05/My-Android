@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold|italic"
+        android:textColor="#1004D1"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:id="@+id/mTvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Android Programming" />
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:paddingRight="16dp"
+        android:textColor="#CC003C"
+        android:id="@+id/mTvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is the most lucrative course bla bla bla       This is the most lucrative course bla bla bla     This is the most lucrative course bla bla bla   This is the most lucrative course bla bla bla   This is the most lucrative course bla bla bla"
+        />
+
+    <Button
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:backgroundTint="#03A9F4"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="#F30F5D"
+        android:id="@+id/mBtnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+    <Button
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="#004BFF"
+        android:backgroundTint="#8BC34A"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:id="@+id/mBtnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+</LinearLayout>
